@@ -12,7 +12,7 @@ char caracter = char.Parse(Console.ReadLine());
 string vocal = caracter switch 
 {
    'a' or 'e' or 'i' or 'o' or 'u' => "Es vocal.",
-    'b' or 'c' or 'd' or 'f' or 'g' or 'h' or 'j' or 'k' or 'l' or 'm' or 'n' or 'ñ' or 'p' or 'p' or 'q' or 'r' or 's' or 't' or 'v' or 'w' or 'x' or 'y' or 'z' => "Es consonate.",
+    (>= 'a' and <= 'z') or 'ñ' => "Es consonante.",
     _=> "No es letra."
 };
 
