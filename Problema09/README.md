@@ -1,9 +1,8 @@
-# Problema09
-#  Problema 8 - Vocal o consonante.
+#  Problema 9 - Año bisiesto
 
-**Estructura elegida:** Elegi la estructura de switch expressions.
+**Estructura elegida:** Elegi la estructura de operador ternario.
 
-**Justificación:** Habia muchos caracteres por el caso de consonante, y se pudo haber realizo con un .isLetter; pero decidi mantener solo con un switch  expressions, porque el profesor no nos ha enseñado eso.
+**Justificación:** Por su simplicidad ya que solamente se basa en definir una variable dependiendo del dato entrante.
 
 
 **Evidencia:**

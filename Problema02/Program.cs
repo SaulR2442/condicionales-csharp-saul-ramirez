@@ -17,11 +17,11 @@ float peso = float.Parse ( Console.ReadLine() ) ;
 
 string tarifa = peso switch 
 {
-    > 0 and < 1 => "$8.000",
-    >= 1 and < 5 => "$15.000",  
-    >=5 and <20 => "$32.000",
+    > 0 and < 1 => "8.000",
+    >= 1 and < 5 => "15.000",  
+    >=5 and <20 => "32.000",
     >= 20 => "60.000",
     _=> "Peso invalido"
 } ; 
 
-Console.WriteLine($"El valor a pagar para enviar es -> {tarifa}") ;
+Console.WriteLine($"El valor a pagar para enviar es -> ${tarifa}") ;
