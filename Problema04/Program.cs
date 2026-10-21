@@ -7,12 +7,12 @@ Una app de celular revisa el nivel de batería. Si está por debajo del 15 %, mu
 - Entrada: 80 → una línea: `Nivel actual: 80 %`
 */
 
-Console.WriteLine("Ingrese el nivel de batería: ");
+Console.WriteLine("Ingrese el nivel de batería -> ");
 byte bateria = byte.Parse(Console.ReadLine());
 
 if (bateria < 15) 
 {
-    Console.WriteLine("Batería baja: conecte el cargador");
+    Console.WriteLine("Batería baja: conecte el cargador.");
 }
 
-Console.WriteLine($"Nivel actual: {bateria} %");
+Console.WriteLine($"Nivel actual -> {bateria} %");
