@@ -1,9 +1,9 @@
-#     Problema 27 - Taquilla de cine
+#     Problema 28 - Descuento por compra
 
 
 **Estructura elegida:** Elegi la estructura de if / else.
 
-**Justificación:** Como este es un problema que la respuesta varia dependiendo de entrada del usuario, esta estructura maneja esas entradas o salidas de verdadero o falso.
+**Justificación:** Porque, tenia que depender de varias cosas para poder obtener el resultado final, y de varios limitantes.
 
 
 **Evidencia:**
