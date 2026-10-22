@@ -12,3 +12,34 @@ Un sistema recibe datos en una variable de tipo `object` que puede contener un t
 Ejemplos: “SENA” → `Texto de 4 caracteres` · 42 → `Entero: 42` · true → `Booleano: True`
 */
 
+Console.WriteLine("Ingrese un dato para analizar -> ");
+string entrada = Console.ReadLine()!;
+object datoRecibido;
+
+if (int.TryParse(entrada, out int numeroEntero))
+{
+    datoRecibido = numeroEntero;
+}
+else if (double.TryParse(entrada, out double numeroDecimal))
+{
+    datoRecibido = numeroDecimal;
+}
+else if (bool.TryParse(entrada, out bool valorBooleano))
+{
+    datoRecibido = valorBooleano;
+}
+else
+{
+    datoRecibido = entrada; 
+}
+
+string descripcion = datoRecibido switch
+{
+    string texto => $"Texto de {texto.Length} caracteres",
+    int entero => $"Entero: {entero}",
+    double nDecimal => $"Decimal: {nDecimal}",
+    bool booleano => $"Booleano: {booleano}",
+    _ => "Tipo no reconocido"
+};
+
+Console.WriteLine(descripcion);
