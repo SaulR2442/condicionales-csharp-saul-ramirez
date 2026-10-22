@@ -1,8 +1,8 @@
-#  Problema 13 - Códigos de país
+#  Problema 14 - Estado del aprendiz
 
-**Estructura elegida:** Elegi la estructura de Switch expressions.
+**Estructura elegida:** Elegi la estructura de Operador Ternario.
 
-**Justificación:** Esta estructura a mi me parece la correcta ya que solamente es una asignacion de strigs depediendo del dato que ingrese el usuario.
+**Justificación:** Al ser una sola variable la que cambia, por eso se eligio esta y tambien porque asi se solicitado en el enunciado.
 
 
 **Evidencia:**
